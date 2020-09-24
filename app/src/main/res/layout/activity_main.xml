@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Delhi"/>
+
+        <Button
+            android:id="@+id/loc2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Dhanbad"/>
+
+        <Button
+            android:id="@+id/loc3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="KOLKATA"/>
+
+        <Button
+            android:id="@+id/loc4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="GURGAON"/>
+
+        <Button
+            android:id="@+id/loc5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="KANPUR"/>
+
+        <Button
+            android:id="@+id/loc6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="MUMBAI"/>
+
+        <Button
+            android:id="@+id/loc7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="RANCHI"/>
+
+        <Button
+            android:id="@+id/loc8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="NOIDA"/>
+
+        <Button
+            android:id="@+id/loc9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="GREATER NOIDA"/>
+
+        <Button
+            android:id="@+id/loc10"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="BOKARO"/>
+
+    </LinearLayout>
+
+</ScrollView>
